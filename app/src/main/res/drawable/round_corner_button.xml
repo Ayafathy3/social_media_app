@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+         android:shape="rectangle">
+
+            <stroke android:color="#f2dbdf"
+                android:width="2dp" />
+            <!--corners allow us to make the rounded corners button-->
+            <corners android:radius="60dp" />
+       <gradient android:endColor="#d6a3d0"
+           android:startColor="#e67b7b"/>
+        </shape>
+

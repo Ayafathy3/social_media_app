@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Sociarn</string>
+    <string name="chat_setting">Chat</string>
+    <string name="account_setting_name">Account Setting</string>
+    <string name="action_log_out">LogOut</string>
+    <string-array name="field">
+        <item>android</item>
+        <item>Design</item>
+        <item>Architecture</item>
+        <item>Biology</item>
+        <item>Physics</item>
+        <item>English</item>
+    </string-array>
+
+</resources>

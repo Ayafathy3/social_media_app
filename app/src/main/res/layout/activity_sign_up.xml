@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_17sdp"
+        android:fontFamily="@font/font"
+        android:text="Sociarn"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_40sdp" />
+
+    <EditText
+        android:id="@+id/user_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_17sdp"
+        android:hint="your_email@.com"
+        android:textColorHint="#7b7878"
+        android:textSize="@dimen/_18sdp" />
+
+    <EditText
+        android:id="@+id/new_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_17sdp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="#7b7878"
+        android:textSize="@dimen/_18sdp" />
+
+    <EditText
+        android:id="@+id/confirm_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_17sdp"
+        android:hint="confirm password"
+        android:inputType="textPassword"
+        android:textColorHint="#7b7878"
+        android:textSize="@dimen/_18sdp" />
+
+    <Button
+        android:id="@+id/create_new_account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_17sdp"
+        android:background="@drawable/round_corner_button"
+        android:gravity="center"
+        android:text="Create account"
+        android:textAllCaps="false"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_18sdp" />
+
+    <TextView
+        android:id="@+id/have_account_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_17sdp"
+        android:gravity="center"
+        android:text="Already have an Account ?"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_18sdp" />
+</LinearLayout>

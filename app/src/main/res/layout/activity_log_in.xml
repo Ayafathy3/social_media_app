@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image"
+    android:orientation="vertical">
+
+    <ProgressBar
+        android:id="@+id/progress_bar_logIn"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_4sdp"
+        android:indeterminate="true"
+        android:visibility="invisible" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/_16sdp"
+        android:fontFamily="@font/font1"
+        android:text="Sociarn"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_40sdp" />
+
+    <EditText
+
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_18sdp"
+        android:hint="your_email@.com"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#7b7878"
+        android:textSize="@dimen/_18sdp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_18sdp"
+        android:hint="password"
+        android:inputType="textPassword"
+        android:textColorHint="#7b7878"
+        android:textSize="@dimen/_18sdp" />
+
+    <Button
+        android:id="@+id/so7ba_login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/_40sdp"
+        android:layout_marginRight="@dimen/_40sdp"
+        android:layout_marginTop="@dimen/_23sdp"
+        android:background="@drawable/round_corner_button"
+        android:gravity="center"
+        android:text="log in "
+        android:textAllCaps="false"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_16sdp" />
+
+    <TextView
+        android:id="@+id/crate_account_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_80sdp"
+        android:gravity="center"
+        android:text="Create New Account ?"
+        android:textColor="#a40f0f"
+        android:textSize="@dimen/_18sdp" />
+
+</LinearLayout>
